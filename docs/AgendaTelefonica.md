@@ -20,9 +20,3 @@ Responsável pela lógica de dados, contendo funções como:
 - `ver_dados()`
 - `remover_dados()`
 - `atualizar_dados()`
-
-## Como Executar
-1. Certifique-se de ter Python instalado
-2. Execute o arquivo principal:
-```bash
-python main.py
