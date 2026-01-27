@@ -20,54 +20,55 @@ O sistema utiliza **separação de camadas (UI e Dados)** e persistência em arq
 ```text
 agenda-telefonica/
 │
-├── assets/
+├── assets/             # Imagens e ícones do sistema
 │   ├── screenshot.png
 │   └── icon.png
 │
-├── docs/
+├── docs/               # Documentação detalhada
 │   ├── tecnico.md
 │   └── manual_usuario.md
 │
-├── src/
+├── src/                # Código-fonte
 │   └── AgendaTelefonica.py
 │
-├── .gitignore
-├── LICENSE
-└── README.md
+├── .gitignore          # Arquivos ignorados pelo Git
+├── LICENSE             # Licença do projeto
+└── README.md           # Guia principal
 ⚙️ Instalação e Execução
-Clone o repositório
+Clone o repositório:
 
-bash
-Copiar código
-git clone https://github.com/emival122/agenda-telefonica.git
-Acesse a pasta do projeto
+Bash
 
-bash
-Copiar código
+git clone [https://github.com/emival122/agenda-telefonica.git](https://github.com/emival122/agenda-telefonica.git)
+Acesse a pasta do projeto:
+
+Bash
+
 cd agenda-telefonica
-Execute a aplicação
+Execute a aplicação:
 
-bash
-Copiar código
+Bash
+
 python src/AgendaTelefonica.py
-⚠️ É necessário Python 3.10 ou superior
+⚠️ Requisito: É necessário ter o Python 3.10 ou superior instalado.
 
-📘 Documentação
-📄 Documentação Técnica: docs/tecnico.md
+📘 Documentação Acadêmica
+Para detalhes mais profundos sobre o funcionamento, acesse:
 
-👤 Manual do Usuário: docs/manual_usuario.md
+📄 Documentação Técnica: Detalhes sobre o código, funções e lógica de dados.
+
+👤 Manual do Usuário: Guia de como operar as funções da agenda.
 
 🚀 Melhorias Futuras
-🔎 Busca por nome
+[ ] 🔎 Busca avançada por nome.
 
-📤 Exportação para PDF/Excel
+[ ] 📤 Exportação de contatos para PDF ou Excel.
 
-🔐 Criptografia dos dados
+[ ] 🔐 Criptografia simples para proteção dos dados.
 
-🧪 Testes automatizados
+[ ] 🧪 Implementação de testes automatizados.
 
-🌙 Tema escuro
+[ ] 🌙 Suporte para modo escuro (Dark Mode).
 
 📄 Licença
-Este projeto está sob a licença MIT.
-Uso livre para fins educacionais e pessoais.
+Este projeto está sob a Licença MIT. Sinta-se à vontade para usar, modificar e distribuir para fins educacionais e pessoais.
