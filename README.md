@@ -1,35 +1,37 @@
-# 📞 PhoneBook Pro - Sistema de Gestão de Contatos
+# 📞 PhoneBook Pro – Sistema de Gestão de Contatos
 
-![GitHub License](https://img.shields.io/github/license/SEU_USUARIO/agenda-telefonica?style=flat-square&color=4fa882)
+![GitHub License](https://img.shields.io/github/license/emival122/agenda-telefonica?style=flat-square&color=4fa882)
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square&logo=python)
-![Repo Size](https://img.shields.io/github/repo-size/SEU_USUARIO/agenda-telefonica?style=flat-square)
+![Repo Size](https://img.shields.io/github/repo-size/emival122/agenda-telefonica?style=flat-square)
 
 <p align="center">
   <img src="./assets/screenshot.png" alt="Demonstração do Sistema" width="800px">
 </p>
 
+---
+
 ## 📌 Sobre o Projeto
-O **PhoneBook Pro** é uma aplicação desktop intuitiva para gerenciamento de contatos, focada em simplicidade e performance. Este projeto foi estruturado utilizando conceitos de **Separação de Camadas (UI e Data)** e persistência em arquivos planos (CSV), garantindo portabilidade e leveza.
+O **PhoneBook Pro** é uma aplicação desktop para gerenciamento de contatos telefônicos, desenvolvida com foco em simplicidade, organização e performance.  
+O sistema utiliza **separação de camadas (UI e Dados)** e persistência em arquivos CSV, garantindo leveza, portabilidade e fácil manutenção.
 
 ---
 
-## ✨ Funcionalidades Exclusivas
-- ✅ **CRUD Completo:** Adicione, visualize, edite e remova contatos em segundos.
-- 🔍 **Filtro Inteligente:** Busca rápida por telefone direto na base de dados.
-- 💾 **Auto-Save:** Persistência em tempo real no arquivo `dados.csv`.
-- 🎨 **Interface Moderna:** UI dividida em cards com feedback visual de operações.
-- 🛡️ **Robustez:** Tratamento de erros para arquivos inexistentes ou campos vazios.
+## ✨ Funcionalidades
+- ✅ **CRUD Completo:** cadastrar, visualizar, editar e remover contatos  
+- 🔍 **Busca Inteligente:** filtro rápido por número de telefone  
+- 💾 **Auto-Save:** dados salvos automaticamente no arquivo `dados.csv`  
+- 🎨 **Interface Moderna:** layout em cards com feedback visual  
+- 🛡️ **Tratamento de Erros:** validação de campos vazios e arquivos inexistentes  
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
-* **Linguagem:** [Python](https://www.python.org/)
-* **Interface Gráfica:** [Tkinter](https://docs.python.org/3/library/tkinter.html)
-* **Persistência:** Módulo `csv` Nativo
-* **Documentação:** Markdown & Mermaid Diagrams
+## 🛠️ Tecnologias Utilizadas
+- **Linguagem:** Python 3.10+  
+- **Interface Gráfica:** Tkinter  
+- **Persistência de Dados:** Módulo `csv` (nativo)  
+- **Documentação:** Markdown  
 
 ---
-
 ## ⚙️ Instalação e Execução
 1. **Clone o repositório:**
    ```bash
