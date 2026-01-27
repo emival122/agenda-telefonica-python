@@ -16,23 +16,58 @@ O sistema utiliza **separação de camadas (UI e Dados)** e persistência em arq
 
 ---
 
-## ✨ Funcionalidades
-- ✅ **CRUD Completo:** cadastrar, visualizar, editar e remover contatos  
-- 🔍 **Busca Inteligente:** filtro rápido por número de telefone  
-- 💾 **Auto-Save:** dados salvos automaticamente no arquivo `dados.csv`  
-- 🎨 **Interface Moderna:** layout em cards com feedback visual  
-- 🛡️ **Tratamento de Erros:** validação de campos vazios e arquivos inexistentes  
+## 📂 Estrutura do Projeto
+```text
+agenda-telefonica/
+│
+├── assets/
+│   ├── screenshot.png
+│   └── icon.png
+│
+├── docs/
+│   ├── tecnico.md
+│   └── manual_usuario.md
+│
+├── src/
+│   └── AgendaTelefonica.py
+│
+├── .gitignore
+├── LICENSE
+└── README.md
+⚙️ Instalação e Execução
+Clone o repositório
 
----
+bash
+Copiar código
+git clone https://github.com/emival122/agenda-telefonica.git
+Acesse a pasta do projeto
 
-## 🛠️ Tecnologias Utilizadas
-- **Linguagem:** Python 3.10+  
-- **Interface Gráfica:** Tkinter  
-- **Persistência de Dados:** Módulo `csv` (nativo)  
-- **Documentação:** Markdown  
+bash
+Copiar código
+cd agenda-telefonica
+Execute a aplicação
 
----
-## ⚙️ Instalação e Execução
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/SEU_USUARIO/agenda-telefonica.git](https://github.com/SEU_USUARIO/agenda-telefonica.git)
+bash
+Copiar código
+python src/AgendaTelefonica.py
+⚠️ É necessário Python 3.10 ou superior
+
+📘 Documentação
+📄 Documentação Técnica: docs/tecnico.md
+
+👤 Manual do Usuário: docs/manual_usuario.md
+
+🚀 Melhorias Futuras
+🔎 Busca por nome
+
+📤 Exportação para PDF/Excel
+
+🔐 Criptografia dos dados
+
+🧪 Testes automatizados
+
+🌙 Tema escuro
+
+📄 Licença
+Este projeto está sob a licença MIT.
+Uso livre para fins educacionais e pessoais.
