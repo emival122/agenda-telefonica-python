@@ -1,11 +1,14 @@
-# Projetos em Python
+# 📞 Agenda Telefônica Pro
 
-Repositório com projetos e exercícios desenvolvidos em Python.
+Sistema de gerenciamento de contatos desenvolvido em Python com interface gráfica e armazenamento em CSV.
 
-## Estrutura
-- src: códigos .py
-- docs: documentação dos projetos
-- imagens: imagens e gráficos
+## 🚀 Funcionalidades
+- Cadastro de contatos (Nome, Sexo, Telefone, Email).
+- Visualização dinâmica em tabela.
+- Busca rápida por número de telefone.
+- Edição e exclusão de registros.
 
-## Linguagem
-- Python
+## 🛠️ Tecnologias
+- Python 3
+- Tkinter (Interface Gráfica)
+- CSV (Banco de dados em arquivo)
