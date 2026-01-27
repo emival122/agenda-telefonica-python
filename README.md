@@ -1,5 +1,7 @@
 # 📞 Agenda Telefônica Pro
 
+![Demo](./assets/screenshot.png)
+
 Sistema de gerenciamento de contatos desenvolvido em Python com interface gráfica e armazenamento em CSV.
 
 ## 🚀 Funcionalidades
