@@ -17,41 +17,45 @@ O sistema utiliza **separação de camadas (UI e Dados)** e persistência em arq
 ---
 
 ## ✨ Funcionalidades
-- ✅ **CRUD Completo:** cadastrar, visualizar, editar e remover contatos  
-- 🔍 **Busca Inteligente:** filtro rápido por número de telefone  
-- 💾 **Auto-Save:** dados salvos automaticamente no arquivo `dados.csv`  
-- 🎨 **Interface Moderna:** layout em cards com feedback visual  
-- 🛡️ **Tratamento de Erros:** validação de campos vazios e arquivos inexistentes  
+- ✅ **CRUD Completo:** cadastrar, visualizar, editar e remover contatos.
+- 🔍 **Busca Inteligente:** filtro rápido por número de telefone.
+- 💾 **Auto-Save:** dados salvos automaticamente no arquivo `dados.csv`.
+- 🎨 **Interface Moderna:** layout em cards com feedback visual.
+- 🛡️ **Tratamento de Erros:** validação de campos vazios e arquivos inexistentes.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-- **Linguagem:** Python 3.10+  
-- **Interface Gráfica:** Tkinter  
-- **Persistência de Dados:** Módulo `csv` (nativo)  
+- **Linguagem:** Python 3.10+
+- **Interface Gráfica:** Tkinter
+- **Persistência de Dados:** Módulo `csv` (nativo)
 - **Documentação:** Markdown
 
- ## 📘 Documentação
+---
+
+## 📘 Documentação
 Para uma compreensão profunda da arquitetura e operação, consulte os manuais detalhados:
 
-📄 Documentação Técnica: Explicação das funções, tratamento de dados e lógica CRUD.
-
-👤 Manual do Usuário: Guia passo a passo para utilizar todas as ferramentas do sistema.
-
-## 🚀 Melhorias Futuras
-[ ] 🔎 Filtro Avançado: Implementar busca por Nome e Email.
-
-[ ] 📤 Exportação: Gerar relatórios em formato PDF ou Excel.
-
-[ ] 🔐 Segurança: Adicionar criptografia básica no arquivo CSV.
-
-[ ] 🌙 Customização: Sistema de temas (Light/Dark Mode).
-
-## 📄 Licença
-Este projeto está sob a Licença MIT. Uso livre para fins educacionais e pessoais.
+* [📄 **Documentação Técnica**](./docs/tecnico.md): Explicação das funções, tratamento de dados e lógica CRUD.
+* [👤 **Manual do Usuário**](./docs/manual_usuario.md): Guia passo a passo para utilizar todas as ferramentas do sistema.
 
 ---
+
+## 🚀 Melhorias Futuras
+- [ ] 🔎 **Filtro Avançado:** Implementar busca por Nome e Email.
+- [ ] 📤 **Exportação:** Gerar relatórios em formato PDF ou Excel.
+- [ ] 🔐 **Segurança:** Adicionar criptografia básica no arquivo CSV.
+- [ ] 🌙 **Customização:** Sistema de temas (Light/Dark Mode).
+
+---
+
+## 📄 Licença
+Este projeto está sob a **Licença MIT**. Uso livre para fins educacionais e pessoais.
+
+---
+
 ## ⚙️ Instalação e Execução
+
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/SEU_USUARIO/agenda-telefonica.git](https://github.com/SEU_USUARIO/agenda-telefonica.git)
+   git clone [https://github.com/emival122/agenda-telefonica.git](https://github.com/emival122/agenda-telefonica.git)
