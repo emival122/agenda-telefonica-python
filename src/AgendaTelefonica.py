@@ -15,6 +15,10 @@ co7 = "#93cd95"
 
 # ================== JANELA ==================
 janela = Tk()
+# Adicionando o ícone
+img_icone = PhotoImage(file='assets/icon.png')
+janela.iconphoto(False, img_icone)
+
 janela.title("Agenda Telefônica")
 janela.geometry("1100x700")
 janela.configure(bg=co0)
@@ -23,6 +27,8 @@ janela.resizable(True, True)
 telefone_para_atualizar = ""
 
 # ================== FUNÇÕES ==================
+
+
 def mostrar_tabela(dados_para_exibir=None):
     global tree
     for widget in frame_tabela.winfo_children():
@@ -166,19 +172,23 @@ card_form.grid_columnconfigure(1, weight=1)
 fonte_label = ("Arial", 11, "bold")
 fonte_entry = ("Arial", 11)
 
-Label(card_form, text="Nome", bg=co1, font=fonte_label).grid(row=0, column=0, sticky="w", pady=10)
+Label(card_form, text="Nome", bg=co1, font=fonte_label).grid(
+    row=0, column=0, sticky="w", pady=10)
 e_nome = Entry(card_form, font=fonte_entry)
 e_nome.grid(row=0, column=1, sticky="ew", pady=10, padx=10)
 
-Label(card_form, text="Sexo", bg=co1, font=fonte_label).grid(row=1, column=0, sticky="w", pady=10)
+Label(card_form, text="Sexo", bg=co1, font=fonte_label).grid(
+    row=1, column=0, sticky="w", pady=10)
 c_sexo = ttk.Combobox(card_form, values=["M", "F"], font=fonte_entry)
 c_sexo.grid(row=1, column=1, sticky="ew", pady=10, padx=10)
 
-Label(card_form, text="Telefone", bg=co1, font=fonte_label).grid(row=2, column=0, sticky="w", pady=10)
+Label(card_form, text="Telefone", bg=co1, font=fonte_label).grid(
+    row=2, column=0, sticky="w", pady=10)
 e_telefone = Entry(card_form, font=fonte_entry)
 e_telefone.grid(row=2, column=1, sticky="ew", pady=10, padx=10)
 
-Label(card_form, text="Email", bg=co1, font=fonte_label).grid(row=3, column=0, sticky="w", pady=10)
+Label(card_form, text="Email", bg=co1, font=fonte_label).grid(
+    row=3, column=0, sticky="w", pady=10)
 e_email = Entry(card_form, font=fonte_entry)
 e_email.grid(row=3, column=1, sticky="ew", pady=10, padx=10)
 
