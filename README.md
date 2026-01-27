@@ -1,21 +1,14 @@
-# 📞 Agenda Telefônica em Python
+# 📞 Agenda Telefônica Pro
 
-Sistema de gerenciamento de contatos simples e eficiente que utiliza persistência de dados em arquivos CSV.
+Sistema de gerenciamento de contatos desenvolvido em Python com interface gráfica e armazenamento em CSV.
 
 ## 🚀 Funcionalidades
-- **Adicionar:** Cadastro de nome, telefone e detalhes.
-- **Listar:** Visualização em tabela (Treeview).
-- **Atualizar:** Edição de contatos existentes.
-- **Deletar:** Remoção de registros via ID/Telefone.
+- Cadastro de contatos (Nome, Sexo, Telefone, Email).
+- Visualização dinâmica em tabela.
+- Busca rápida por número de telefone.
+- Edição e exclusão de registros.
 
 ## 🛠️ Tecnologias
-- Python 3.x
-- Módulo CSV (Persistência de dados)
+- Python 3
 - Tkinter (Interface Gráfica)
-
-## 📋 Como rodar
-1. Clone o repositório
-2. Certifique-se de ter o Python instalado.
-3. Execute o comando:
-   ```bash
-   python src/main.py
+- CSV (Banco de dados em arquivo)
