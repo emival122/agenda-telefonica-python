@@ -29,7 +29,26 @@ O sistema utiliza **separação de camadas (UI e Dados)** e persistência em arq
 - **Linguagem:** Python 3.10+  
 - **Interface Gráfica:** Tkinter  
 - **Persistência de Dados:** Módulo `csv` (nativo)  
-- **Documentação:** Markdown  
+- **Documentação:** Markdown
+
+📘 Documentação Acadêmica
+Para uma compreensão profunda da arquitetura e operação, consulte os manuais detalhados:
+
+📄 Documentação Técnica: Explicação das funções, tratamento de dados e lógica CRUD.
+
+👤 Manual do Usuário: Guia passo a passo para utilizar todas as ferramentas do sistema.
+
+🚀 Melhorias Futuras
+[ ] 🔎 Filtro Avançado: Implementar busca por Nome e Email.
+
+[ ] 📤 Exportação: Gerar relatórios em formato PDF ou Excel.
+
+[ ] 🔐 Segurança: Adicionar criptografia básica no arquivo CSV.
+
+[ ] 🌙 Customização: Sistema de temas (Light/Dark Mode).
+
+📄 Licença
+Este projeto está sob a Licença MIT. Uso livre para fins educacionais e pessoais.
 
 ---
 ## ⚙️ Instalação e Execução
