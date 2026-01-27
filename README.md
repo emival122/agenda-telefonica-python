@@ -11,19 +11,47 @@
 ---
 
 ## 📌 Sobre o Projeto
-O **PhoneBook Pro** é uma aplicação desktop para gerenciamento de contatos telefônicos, desenvolvida com foco em simplicidade, organização e performance.  
-O sistema utiliza **separação de camadas (UI e Dados)** e persistência em arquivos CSV, garantindo leveza, portabilidade e fácil manutenção.
+O **PhoneBook Pro** é uma aplicação desktop desenvolvida em **Python** para gerenciamento de contatos telefônicos.
+O sistema foi projetado com foco em **organização, simplicidade e boa experiência do usuário**, utilizando interface gráfica com Tkinter e persistência de dados em arquivos CSV.
 
 ---
 
 ## ✨ Funcionalidades
-- ✅ **CRUD Completo:** cadastrar, visualizar, editar e remover contatos  
-- 🔍 **Busca Inteligente:** filtro rápido por número de telefone  
-- 💾 **Auto-Save:** dados salvos automaticamente no arquivo `dados.csv`  
-- 🎨 **Interface Moderna:** layout em cards com feedback visual  
-- 🛡️ **Tratamento de Erros:** validação de campos vazios e arquivos inexistentes  
+- ✅ **CRUD Completo:** criar, listar, editar e remover contatos
+- 🔍 **Busca rápida** por número de telefone
+- 💾 **Salvamento automático** em arquivo CSV
+- 🎨 **Interface gráfica intuitiva**
+- 🛡️ **Validação de dados** e tratamento de erros
 
 ---
+
+## 🛠️ Tecnologias Utilizadas
+- **Linguagem:** Python 3.10+
+- **Interface Gráfica:** Tkinter
+- **Persistência de Dados:** CSV (módulo nativo)
+- **Documentação:** Markdown
+
+---
+
+## 📂 Estrutura do Projeto
+```text
+agenda-telefonica/
+│
+├── assets/
+│   ├── screenshot.png
+│   └── icon.png
+│
+├── docs/
+│   ├── tecnico.md
+│   └── manual_usuario.md
+│
+├── src/
+│   └── AgendaTelefonica.py
+│
+├── .gitignore
+├── LICENSE
+└── README.md
+
 
 ## 🛠️ Tecnologias Utilizadas
 - **Linguagem:** Python 3.10+  
