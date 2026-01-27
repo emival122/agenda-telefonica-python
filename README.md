@@ -33,4 +33,4 @@ O **PhoneBook Pro** é uma aplicação desktop intuitiva para gerenciamento de c
 ## ⚙️ Instalação e Execução
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/Emival Junior/agenda-telefonica.git](https://github.com/Emival Junior/agenda-telefonica.git)
+  git clone https://github.com/emival122/agenda-telefonica.git
