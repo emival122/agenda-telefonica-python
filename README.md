@@ -31,14 +31,14 @@ O sistema utiliza **separação de camadas (UI e Dados)** e persistência em arq
 - **Persistência de Dados:** Módulo `csv` (nativo)  
 - **Documentação:** Markdown
 
-📘 Documentação Acadêmica
+ ## 📘 Documentação
 Para uma compreensão profunda da arquitetura e operação, consulte os manuais detalhados:
 
 📄 Documentação Técnica: Explicação das funções, tratamento de dados e lógica CRUD.
 
 👤 Manual do Usuário: Guia passo a passo para utilizar todas as ferramentas do sistema.
 
-🚀 Melhorias Futuras
+## 🚀 Melhorias Futuras
 [ ] 🔎 Filtro Avançado: Implementar busca por Nome e Email.
 
 [ ] 📤 Exportação: Gerar relatórios em formato PDF ou Excel.
@@ -47,7 +47,7 @@ Para uma compreensão profunda da arquitetura e operação, consulte os manuais 
 
 [ ] 🌙 Customização: Sistema de temas (Light/Dark Mode).
 
-📄 Licença
+## 📄 Licença
 Este projeto está sob a Licença MIT. Uso livre para fins educacionais e pessoais.
 
 ---
