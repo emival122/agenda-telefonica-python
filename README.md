@@ -58,4 +58,4 @@ Este projeto está sob a **Licença MIT**. Uso livre para fins educacionais e pe
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/emival122/agenda-telefonica.git](https://github.com/emival122/agenda-telefonica.git)
+   git clone [https://github.com/emival122/agenda-telefonica-python.git](https://github.com/emival122/agenda-telefonica-python.git)
